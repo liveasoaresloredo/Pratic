@@ -1,0 +1,77 @@
+HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> <!--DIV CAIXA SITE-->
+            <div class="dadospessoais"> <!--DIV DADOS PESSOAIS-->
+                <img src="./img/avatar.png" alt="Foto: fulano de tal" class=" fotoperfil">
+                <h1 class="dadosnome">Fulano de tal</h1>
+                <h2 class="dadoscarreira">Desenvolvedor Front-End</h2>
+            </div><!--FIM DIV DADOS PESSOAIS-->
+            
+            <h2 class="barratitulo">Social</h2>
+                
+            <h2 class="barratitulo">Sobre Mim</h2>
+
+            <h2 class="barratitulo">Main Skills</h2>
+
+            <h2 class="barratitulo">Resumo</h2>
+
+            <h2 class="barratitulo">Meus Empregos</h2>
+    </div><!--FIM DIV CAIXA SITE-->
+
+</body>
+</html>
+
+css
+body{
+    background-color: rgb(135,206,235);
+}
+
+.container{
+    margin: 15px auto;
+    width: 900px;
+    border-style: groove;
+    border-width: 9px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgba(145, 145, 145, 0.288);
+}
+
+.fotoperfil{
+    margin-top: 10px;
+    border-radius: 10px 40px 10px 40px;
+    box-shadow: 10px 10px 5px rgb(100,100,100);
+    width:220px ;
+    height: 220px;
+}
+ 
+.dadospessoais{
+    text-align: center;
+}
+
+.dadosnome{
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.dadoscarreira{
+    margin-top: -25px;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.barratitulo{
+    background-color: rgba(134, 134, 134, 0.863);
+    text-align: center;
+    margin-left: -2px;
+}
+
